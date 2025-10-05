@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Quicksand:wght@300..700&display=swap"
+            rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="main-menu">
+            <button onclick="newGame()">new game</button>
+            <button onclick="addPlayer()">add a player</button>
+        </div>
+        <div class="container" id="timer-container">
+            <div id="timer-buttons-container">
+                <button onclick="setTimer()">timer</button> 
+            <div id="time-remaining-box">
+                <p id="time-remaining"></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sub-container">
+                <h3 id="home-h3">home</h3>
+                <div class="score-container">
+                    <p id="home-score"></p>
+                </div>
+                <div>
+                    <button onclick="homeScoreAdd1()">+1</button>
+                    <button onclick="homeScoreAdd5()">+5</button>
+                    <button onclick="homeScoreAdd10()">+10</button>
+                </div>
+            </div>
+            <div class="sub-container">
+                <h3 id="guest-h3">away</h3>
+                <div class="score-container">
+                    <p id="guest-score"></p>
+                </div>
+                <div>
+                    <button onclick="guestScoreAdd1()">+1</button>
+                    <button onclick="guestScoreAdd5()">+5</button>
+                    <button onclick="guestScoreAdd10()">+10</button>
+                </div>
+            </div>
+            <div class="sub-container" id="player3-sub-container">
+                <h3 id="player3-h3">player3</h3>
+                <div class="score-container">
+                    <p id="player3-score"></p>
+                </div>
+                <div>
+                    <button onclick="player3ScoreAdd1()">+1</button>
+                    <button onclick="player3ScoreAdd5()">+5</button>
+                    <button onclick="player3ScoreAdd10()">+10</button>
+                </div>
+            </div>
+            <div class="sub-container" id="player4-sub-container">
+                <h3 id="player4-h3">player4</h3>
+                <div class="score-container">
+                    <p id="player4-score"></p>
+                </div>
+                <div>
+                    <button onclick="player4ScoreAdd1()">+1</button>
+                    <button onclick="player4ScoreAdd5()">+5</button>
+                    <button onclick="player4ScoreAdd10()">+10</button>
+                </div>
+            </div>
+            <div class="sub-container" id="player5-sub-container">
+                <h3 id="player5-h3">player3</h3>
+                <div class="score-container">
+                    <p id="player5-score"></p>
+                </div>
+                <div>
+                    <button onclick="player5ScoreAdd1()">+1</button>
+                    <button onclick="player5ScoreAdd5()">+5</button>
+                    <button onclick="player5ScoreAdd10()">+10</button>
+                </div>
+            </div>
+            <div class="sub-container" id="player6-sub-container">
+                <h3 id="player6-h3">player4</h3>
+                <div class="score-container">
+                    <p id="player6-score"></p>
+                </div>
+                <div>
+                    <button onclick="player6ScoreAdd1()">+1</button>
+                    <button onclick="player6ScoreAdd5()">+5</button>
+                    <button onclick="player6ScoreAdd10()">+10</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

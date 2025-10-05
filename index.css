@@ -1,0 +1,125 @@
+.quicksand-font {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+}
+
+.bitcount-grid-double-font {
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0; }
+
+body {
+    font-family: "Quicksand";
+    font-weight: 300;
+    background-image: linear-gradient(to bottom, #FDBB2D, #affc41, #57C785, #CF33FF);
+    color: #36213e;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+#timer-container {
+    display:grid;
+
+}
+
+#time-remaining-box {
+    width: 100;
+    height: 100;
+    background-color: white;
+    box-shadow: 0 0 10px #36213e5a;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin: 10 auto 0;
+}
+
+#time-remaining {
+    margin: 0;
+    color: #2a9d8f;
+    font-size: 60;
+    font-family: "Bitcount Grid Double", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.sub-container {
+    width: 110;
+}
+
+#player3-sub-container {
+    display: none;
+}
+
+#player4-sub-container {
+    display: none;
+}
+
+#player5-sub-container {
+    display: none;
+}
+
+#player6-sub-container {
+    display: none;
+}
+
+h3 {
+    font-size: 26;
+    font-weight: 100;
+    margin: 10;
+}
+
+.score-container {
+    background: white;
+    width: 100;
+    height: 100;
+    margin: 0 auto;
+    padding: 0;
+/*  border: 1px solid #36213e;  */
+    box-shadow: 0 0 10px #36213e5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home-score, #guest-score, #player3-score, #player4-score, #player5-score, #player6-score {
+    font-size: 60;
+    font-family: 'Bitcount Grid Double', sans-serif;
+}
+
+button {
+    background: white;
+    color: #36213e;
+    border: 0;
+    box-shadow: 0 0 10px #36213e5a;
+    width: 30;
+    margin: 10 0 0 0;
+    padding: 2px 5px;
+    font-family: "Quicksand";
+}
+
+.main-menu > button {
+    width: 100;
+    margin: 5;
+}
+
+#timer-buttons-container > button {
+    width: 50;
+}
